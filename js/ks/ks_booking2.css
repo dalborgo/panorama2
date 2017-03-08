@@ -1,0 +1,121 @@
+
+
+.ks_booking form {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+div.ks_booking {
+
+  color: #fff;
+  font-size: 12px;
+  line-height: 22px;
+  background-color: #313a45;
+  /*border: 1px solid #ababab;*/
+
+    padding: 10px;
+    margin-top:0px;
+
+  /*text-align: center;*/
+}
+
+div.ks_booking a:link, div.ks_booking a:active, div.ks_booking a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+div.ks_booking a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+div.ks_booking h1 {
+
+  font-size: 20px;
+  color: #fff;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+div.ks_booking h2 {
+
+  font-size: 11px;
+  color: #003399;
+  margin: 0px 0px 0px 0px;
+}
+
+div.ks_booking h2 a:link, div.ks_booking h2 a:visited, div.ks_booking h2 a:active {
+  color: #991717;
+  text-decoration: none;
+}
+
+div.ks_booking h2 a:hover {
+  color: #991717;
+  text-decoration: underline;
+}
+
+div.ks_booking table td {
+  text-align: center;
+  vertical-align: bottom;
+
+}
+div.ks_booking table tr {
+
+}
+div.ks_booking table{
+    border-spacing:0;
+    border-collapse: separate
+}
+div.ks_booking input.it {
+
+  font-size: 12px;
+  background-color: lightgrey;
+  border: 1px solid #ababab;
+  color: #000000;
+  padding: 2px;
+  width: 110px;
+}
+
+div.ks_booking input.button {
+     font-weight: bold;
+     background-color: #A0D00C;
+     border: none;
+     color: #fff;
+    border: 1px solid #A0D00C;
+     padding: 4px 9px 4px 9px;
+     cursor: pointer;
+
+    font-size: 8pt;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+ }
+
+
+div.ks_booking input.button:hover {
+
+
+    background-color: #E14C97;
+    border: 1px solid #E14C97;
+    color: #fff;
+
+}
+
+div.download {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 20px
+}
+
+div.download a:link, div.download a:visited, div.download a:active {
+  color: #991717;
+  text-decoration: none;
+}
+
+div.download a:hover {
+  color: #991717;
+  text-decoration: underline;
+}

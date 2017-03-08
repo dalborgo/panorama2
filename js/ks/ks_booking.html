@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>KosmoSol 5stelle* Booking Widget</title>
+  <link href="ks_booking.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" src="ks_booking_calendar.js" type="text/javascript"></script>
+  <script language="javascript" type="text/javascript">
+    var cal_1 = new CalendarPopup("ks_booking_cal_1_div", "it"); // Secondo parametro => lingua ("it" per l'italiano, "en" per l'inglese)
+    var cal_2 = new CalendarPopup("ks_booking_cal_2_div", "it"); // Secondo parametro => lingua ("it" per l'italiano, "en" per l'inglese)
+  </script>
+  <script language="javascript" type="text/javascript">document.write(getCalendarStyles());</script>
+  <script language="javascript" type="text/javascript" src="ks_booking_func.js"></script>
+</head>
+<body>
+  <div align="center">
+    <div class="ks_booking">
+      <h1>Booking online</h1>
+      <h2><a href="http://www.hotelcinquestelle.it" target="_blank">Powered by 5stelle*</a></h2>
+      
+      <form name="ks_booking_form" target="_blank" method="post" action="https://secure.kosmosol.it/booking/check-availability.php?h=demo&l=it"  onsubmit="return controllaForm_it();" >
+      <!--
+        MODIFICARE IL TAG FORM (obbligatorio):
+        - action => Indirizzo booking online, al quale va passata la lingua tramite parametro GET (l=it per l'italiano, l=en per l'inglese).
+        - onsubmit => Funzione di controllo dei parametri, modificabile nel file "ks_booking_func.js" (controllaForm_it() per l'italiano, controllaForm_en() per l'inglese).
+      -->
+      
+      <table cellspacing="0" cellpadding="0" border="0" style="margin: 15px 0px 15px 0px;">
+        <tr>
+          <td colspan="2"><strong>Data di arrivo</strong></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="bd" name="bd" class="it" value="" /></td>
+          <td><a href="#" onclick="cal_1.select(document.forms['ks_booking_form'].bd, document.forms['ks_booking_form'].ed, 'ks_booking_cal_1', 'dd/MM/yyyy'); return false;" name="ks_booking_cal_1" id="ks_booking_cal_1"><img src="ks_booking_calendar.png" width="19" height="20" alt="" border="0" style="margin-left:7px;" /></a></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="padding-top: 10px;"><strong>Data di partenza</strong></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="ed" name="ed" class="it" value="" /></td>
+          <td><a href="#" onclick="cal_2.select(document.forms['ks_booking_form'].ed, null, 'ks_booking_cal_2', 'dd/MM/yyyy'); return false;" name="ks_booking_cal_2" id="ks_booking_cal_2"><img src="ks_booking_calendar.png" width="19" height="20" alt="" border="0" style="margin-left: 7px;" /></a></td>
+        </tr>
+        
+        <!--
+          CODICE PROMOZIONALE (opzionale)
+          Nel caso sia abilitato per l'hotel, decommentare le due seguenti righe della tabella.
+        -->
+        <!--
+        <tr>
+          <td colspan="2" style="padding-top: 10px;"><strong>Codice promozionale</strong></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="pc" name="pc" class="it" value="" /></td>
+          <td></td>
+        </tr>
+        -->
+
+      </table>
+      <input type="submit" class="button" value="Verifica disponibilit&agrave;" />
+      <input type="hidden" name="ca" value="1" />
+      </form>
+      
+      <!--
+        LINK PER LA CANCELLAZIONE (opzionale) 
+        Nel caso l'hotel desideri inserire il link per la cancellazione direttamente nel widget, decommentare il seguente link.
+        NB: Modificare il parametro "h" passato in GET nel link (valorizzato esattamente come fatto per la "action" della form precedente, stessa cosa per la lingua (parametro "l" sempre in GET).
+      -->
+      <!--
+      <br /><a href="https://secure.kosmosol.it/booking/booking-cancellation.php?h=demo&l=it" target="_blank"><strong>Cancella prenotazione</strong></a>
+      -->
+      
+    </div>
+    <!-- il seguente div è da eliminare... -->
+    <div class="download"><a href="KosmoSol_5stelle_Booking_Widget.zip"><strong>Download widget</strong></a></div>
+  </div>
+  <div id="ks_booking_cal_1_div" style="position: absolute; visibility: hidden; background-color: white; z-index:1000;"></div>
+  <div id="ks_booking_cal_2_div" style="position: absolute; visibility: hidden; background-color: white; z-index:1000;"></div>
+</body>
+</html>

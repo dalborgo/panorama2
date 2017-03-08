@@ -1,0 +1,4 @@
+Per integrare il booking è sufficiente replicare all'interno del sito Web il codice contenuto nel file ks_booking.html.
+Seguire i commenti all'interno del codice HTML per apportare le modifiche necessarie.
+
+Per problemi/informazioni: info@kosmosol.it
