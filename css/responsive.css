@@ -724,6 +724,10 @@
         line-height: 20px;
 
     }
+    .uk-grid > * > *:last-child {
+        margin-bottom: 0;
+        margin-top: 35px;
+    }
     .titAlto.special {
         font-size: 30pt;
         /*background-color: rgba(0, 0, 0, 0.6);*/
@@ -1134,6 +1138,11 @@
     .mainmenu {
         min-height: 10px;
         padding: 15px 10px;
+    }
+
+    .uk-grid > * > *:last-child {
+        margin-bottom: 0;
+        margin-top: 35px;
     }
     .titAlto.special {
         font-size: 30pt;

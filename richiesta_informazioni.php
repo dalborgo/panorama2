@@ -73,7 +73,7 @@
          class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
             <h2 class="titAlto"
-                style="line-height: 72px;background-color: rgba(0, 0, 0, 0.2);text-transform: none;padding: 10px 10px 40px 10px">
+                style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px #710F0B;padding: 10px 10px 40px 10px">
                 Richiesta informazioni</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">

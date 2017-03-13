@@ -72,7 +72,7 @@
 
     <div style="width: 100%; background-image: url(images/garda/sfondo_<?= $base ?>.jpg); background-color: #AB2A58" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
-            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.2);">Dicono di noi</h2>
+            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px yellow;">Dicono di noi</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
             <!--            <span style="float: right;text-align:right;"><b>“Il vero lusso, che nessuno pensa più di offrirsi, è prendersi il proprio tempo.”<br>(Paul Morand)</b></span>-->

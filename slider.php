@@ -1,5 +1,5 @@
 <?php
-function getSlider($tit, $stit = 'stanze')
+function getSlider($tit, $stit = 'stanze',$mw = '1100')
 {
     $item = '<div class="clearfix" style="">
     <ul id="image-gallery" class="gallery list-unstyled cS-hidden" style="">';
@@ -23,7 +23,7 @@ function getSlider($tit, $stit = 'stanze')
         <img alt="slider" src="images/' . $stit . '/' . $tit . '/' . $entry . '" /  style="">
     </a>
     <div id="modal-center" uk-modal="center: true" >
-        <div class="uk-modal-dialog">
+        <div class="uk-modal-dialog" style="'.$mw.'">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
             <img src="images/' . $stit . '/' . $tit . '/' . $entry . '" alt="">
         </div>

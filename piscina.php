@@ -123,18 +123,17 @@
                         <!-- <div class="section_content"> -->
                         <div role="tabpanel" class="tab-pane active uk-animation-fade" id="colazione">
 
-                            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                                <div class="uk-card-media-left uk-cover-container">
-                                    <a  href="#modal-center2" uk-toggle> <img src="images/servizi/p1.jpg" alt="colazione">
-                                    </a>
+                            <div class="uk-card uk-card-default uk-grid-collapse uk-margin" uk-grid>
+                                <div class="uk-card-media-left uk-cover-container uk-width-1-3@s" align="center">
+                                    <img src="images/garda/spalla_<?= $base ?>.jpg" alt="piscina">
                                 </div>
-                                <div id="modal-center2" uk-modal="center: true" >
+                               <!-- <div id="modal-center2" uk-modal="center: true" >
                                     <div class="uk-modal-dialog">
                                         <button class="uk-modal-close-outside" type="button" uk-close></button>
                                         <img src="images/servizi/p2.jpg" alt="">
                                     </div>
-                                </div>
-                                <div>
+                                </div>-->
+                                <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">
                                         <h3 class="uk-card-title titoloBasso3 uk-heading-line"><span>Piscina</span></h3>
                                         <p class="text-justify">

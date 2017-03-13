@@ -107,7 +107,7 @@
                                                             background: none !important
                                                         }</style>
                                                 </div>
-                                                <a href='http://maps-generator.com/it'>maps-generator.com</a>
+                                                <a href='http://maps-generator.com/it'>&nbsp;</a>
                                                 <script type='text/javascript'
                                                         src='https://embedmaps.com/google-maps-authorization/script.js?id=c266130836df98eb7742117d064f09da561ea3c0'></script>
                                                 <script type='text/javascript'>function init_map() {
