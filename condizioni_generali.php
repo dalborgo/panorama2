@@ -72,7 +72,7 @@
 
     <div style="width: 100%; background-image: url(images/garda/sfondo_<?= $base ?>.jpg); background-color: #AB2A58" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
-            <h2 class="titAlto special" style="background-color: rgba(0, 0, 0, 0.5);text-shadow: 0 0 20px #D3AF95;">Condizioni generali e<br>politiche di cancellazione</h2>
+            <h2 class="titAlto special" style="background-color: rgba(0, 0, 0, 0.4);text-shadow: 0 0 20px black;">Condizioni generali e<br>politiche di cancellazione</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
             <!--            <span style="float: right;text-align:right;"><b>“Il vero lusso, che nessuno pensa più di offrirsi, è prendersi il proprio tempo.”<br>(Paul Morand)</b></span>-->
@@ -98,9 +98,9 @@
                     <div class="container">
                         <div class="section_title">
                             <ul class="nav nav-tabs margin-bottom-60 uk-flex-center " role="tablist" uk-tab>
-                                <li role="presentation" class="active"><a href="#colazione" aria-controls="deluxe_room" role="tab" data-toggle="tab" aria-expanded="true"
+                                <li role="presentation" class="active"><a href="#i1" aria-controls="deluxe_room" role="tab" data-toggle="tab" aria-expanded="true"
                                    >Condizioni Generali</a></li>
-                                <li role="presentation"><a href="#mezzapensione" aria-controls="deluxe_room" role="tab" data-toggle="tab">MODALITA’ DI PAGAMENTO E POLITICHE DI CANCELLAZIONE</a></li>
+                                <li role="presentation"><a href="#i2" aria-controls="deluxe_room" role="tab" data-toggle="tab">MODALITA’ DI PAGAMENTO E POLITICHE DI CANCELLAZIONE</a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,19 +108,19 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <!-- <div class="section_content"> -->
-                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="colazione">
+                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="i1">
 
                             <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid>
                                 <div class="uk-width-1-3@s">
-                                    <div class="uk-background-cover uk-card-media-top">
-                                        <a  href="#modal-center2" uk-toggle > <img src="images/mangiare/colazione/x1.png" alt="colazione"></a>
+                                    <div class="uk-background-cover uk-card-media-top" align="center">
+                                        <img src="images/garda/spalla_<?= $base ?>.jpg" alt="condizioni generali">
                                     </div>
-                                    <div id="modal-center2" uk-modal="center: true" >
+                                    <!--<div id="modal-center2" uk-modal="center: true" >
                                         <div class="uk-modal-dialog">
                                             <button class="uk-modal-close-outside" type="button" uk-close></button>
                                             <img src="images/mangiare/colazione/c2.jpg" alt="">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">
@@ -164,21 +164,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane uk-animation-fade" id="mezzapensione">
+                        <div role="tabpanel" class="tab-pane uk-animation-fade" id="i2">
 
                             <div class="uk-card uk-card-default uk-grid-collapse uk-margin" uk-grid>
                                 <div class="uk-width-1-3@s">
-                                    <div class="uk-card-media-left uk-cover-container">
+                                    <div class="uk-card-media-left uk-cover-container" align="center">
 
-                                        <a  href="#modal-center3" uk-toggle> <img src="images/mangiare/colazione/c3.jpg" alt="mezza pensione">
-                                        </a>
+                                        <img src="images/garda/spalla_<?= $base ?>.jpg" alt="mezza pensione">
+
                                     </div>
-                                    <div id="modal-center3" uk-modal="center: true" >
+                                    <!--<div id="modal-center3" uk-modal="center: true" >
                                         <div class="uk-modal-dialog">
                                             <button class="uk-modal-close-outside" type="button" uk-close></button>
-                                            <img src="images/mangiare/colazione/c4.jpg" alt="mezza pensione">
+                                            <img src="images/garda/spalla_<?/*= $base */?>.jpg" alt="modalità di pagamento">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">

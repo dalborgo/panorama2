@@ -85,33 +85,6 @@
     </div>
 </section>
 
-<!--<div class="uk-background-blend-multiply uk-background-primary uk-background-cover uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/garda/garda2.jpg);">
-    <p class="uk-h4">Multiply</p>
-</div>-->
-<!-- end breadcrunb -->
-
-<!--<div class="room_detail_main">
-    <div class="container" >
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="section_title content-left margin-bottom-5"
-                     style="padding:20px">
-                    <div class="section_title nice_title content-center" style="height: 70%;" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
-                        <h3 class=""><div class="titoloBasso2">INFO</div><span class="titoloBasso">Opinioni</span></h3>
-                    </div>
-
-                </div>
-                <div class="room_facilities_des padding-top-40 padding-bottom-20 ">
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>-->
-
 
 <div class="other_room_area margin-bottom-55  padding-top-50">
     <div class="container">
@@ -125,8 +98,8 @@
                     <div class="container">
                         <div class="section_title">
                             <ul class="nav nav-tabs margin-bottom-60 uk-flex-center " role="tablist" uk-tab>
-                                <li role="presentation" class="active"><a href="#colazione" aria-controls="deluxe_room" role="tab" data-toggle="tab" aria-expanded="true" >Guide e Riviste</a></li>
-                                <li role="presentation"><a href="#mezzapensione" aria-controls="deluxe_room" role="tab" data-toggle="tab">Clienti</a></li>
+                                <li role="presentation" class="active"><a href="#i1" aria-controls="deluxe_room" role="tab" data-toggle="tab" aria-expanded="true" >Guide e Riviste</a></li>
+                                <li role="presentation"><a href="#i2" aria-controls="deluxe_room" role="tab" data-toggle="tab">Clienti</a></li>
                             </ul>
                         </div>
                     </div>
@@ -134,23 +107,23 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <!-- <div class="section_content"> -->
-                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="colazione">
+                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="i1">
 
                             <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid>
                                 <div class="uk-width-1-3@s">
-                                    <div class="uk-background-cover uk-card-media-top">
-                                        <a  href="#modal-center2" uk-toggle > <img src="images/mangiare/colazione/x1.png" alt="colazione"></a>
+                                    <div class="uk-background-cover uk-card-media-top" align="center">
+                                       <img src="images/garda/spalla_<?= $base ?>.jpg" alt="dicono di noi">
                                     </div>
-                                    <div id="modal-center2" uk-modal="center: true" >
+                                    <!--<div id="modal-center2" uk-modal="center: true" >
                                         <div class="uk-modal-dialog">
                                             <button class="uk-modal-close-outside" type="button" uk-close></button>
                                             <img src="images/mangiare/colazione/c2.jpg" alt="">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">
-                                        <h3 class="uk-card-title uk-heading-line titoloBasso4"><span>Guide e riviste</span></h3>
+                                        <h3 class="uk-card-title uk-heading-line titoloBasso4" style="line-height: 60px"><span>Guide e riviste</span></h3>
                                         <ul uk-accordion="collapsible: false">
                                             <?= $cita ?>
                                         </ul>
@@ -159,25 +132,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane uk-animation-fade" id="mezzapensione">
+                        <div role="tabpanel" class="tab-pane uk-animation-fade" id="i2">
 
                             <div class="uk-card uk-card-default uk-grid-collapse uk-margin" uk-grid>
                                 <div class="uk-width-1-3@s">
-                                    <div class="uk-card-media-left uk-cover-container">
-
-                                        <a  href="#modal-center3" uk-toggle> <img src="images/mangiare/colazione/c3.jpg" alt="mezza pensione">
-                                        </a>
+                                    <div class="uk-card-media-left uk-cover-container" align="center">
+                                        <img src="images/garda/spalla_<?= $base ?>.jpg" alt="dicono di noi">
                                     </div>
-                                    <div id="modal-center3" uk-modal="center: true" >
+                                   <!-- <div id="modal-center3" uk-modal="center: true" >
                                         <div class="uk-modal-dialog">
                                             <button class="uk-modal-close-outside" type="button" uk-close></button>
                                             <img src="images/mangiare/colazione/c4.jpg" alt="mezza pensione">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">
-                                        <h3 class="uk-card-title uk-heading-line titoloBasso4"><span>Clienti</span></h3>
+                                        <h3 class="uk-card-title uk-heading-line titoloBasso4" style="line-height: 60px"><span>Clienti</span></h3>
                                         <div id="TA_selfserveprop235" class="TA_selfserveprop" style="font-size:30pt"><ul id="lHZGs6" class="TA_links BmzAr8s"><li id="h84u7tKVgdb" class="h5aHiXERxX" ><a target="_blank" href="https://www.tripadvisor.it/"><img src="https://www.tripadvisor.it/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=235&amp;locationId=665073&amp;lang=it&amp;rating=false&amp;nreviews=4&amp;writereviewlink=false&amp;popIdx=false&amp;iswide=true&amp;border=false&amp;display_version=2"></script>
                                     </div>
                                 </div>

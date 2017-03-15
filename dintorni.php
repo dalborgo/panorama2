@@ -85,36 +85,6 @@
     </div>
 </section>
 
-<!--<div class="uk-background-blend-multiply uk-background-primary uk-background-cover uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/garda/garda2.jpg);">
-    <p class="uk-h4">Multiply</p>
-</div>-->
-<!-- end breadcrunb -->
-
-<!--<div class="room_detail_main">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="section_title content-left margin-bottom-5"
-                     style="padding:20px">
-
-                    <div class="section_title nice_title content-center" style="height: 70%;"
-                         uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
-                        <h3 class=""><span><span style="color: #A82B57">Relax</span></span></h3>
-                    </div>
-
-                </div>
-                <div class="room_facilities_des padding-top-40 padding-bottom-20 ">
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>-->
-
-
 <div class="other_room_area margin-bottom-55 padding-top-50">
     <div class="container">
         <div class="row">
@@ -127,7 +97,7 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <!-- <div class="section_content"> -->
-                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="colazione">
+                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="i1">
 
                             <div class="uk-card uk-card-default uk-grid-collapse uk-margin"
                                  uk-grid>

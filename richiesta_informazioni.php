@@ -54,7 +54,11 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     -->
-
+    <style>
+        .breadcrumb_main.nice_title > h2::after {
+            height: 30%;
+        }
+    </style>
 </head>
 <body id="gallery_page" style="font-family: 'Helvetica Neue','Arial'">
 
@@ -73,7 +77,7 @@
          class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
             <h2 class="titAlto"
-                style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px #710F0B;padding: 10px 10px 40px 10px">
+                style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px #710F0B;padding: 10px 10px 40px 10px;font-size: 80pt;">
                 Richiesta informazioni</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
@@ -100,8 +104,8 @@
                    <div class="container">
                          <div class="section_title">
                              <ul class="nav nav-tabs margin-bottom-60 uk-flex-center " role="tablist" uk-tab>
-                                 <li role="presentation" class="active"><a href="#colazione" aria-controls="deluxe_room" role="tab" data-toggle="tab" aria-expanded="true" >Contattaci</a></li>
-                                 <li role="presentation"><a href="#mezzapensione" aria-controls="deluxe_room" role="tab" data-toggle="tab">Scarica la nostra Brochure</a></li>
+                                 <li role="presentation" class="active"><a href="#i1" aria-controls="deluxe_room" role="tab" data-toggle="tab" aria-expanded="true" >Contattaci</a></li>
+                                 <li role="presentation"><a href="#i2" aria-controls="deluxe_room" role="tab" data-toggle="tab">Scarica la nostra Brochure</a></li>
                              </ul>
                          </div>
                      </div>
@@ -109,20 +113,19 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <!-- <div class="section_content"> -->
-                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="colazione">
+                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="i1">
                             <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid>
                                 <div class="uk-width-1-3@s">
-                                    <div class="uk-card-media-left uk-cover-container">
-                                        <a href="#modal-center3" uk-toggle> <img src="images/mangiare/colazione/c3.jpg"
-                                                                                 alt="mezza pensione">
-                                        </a>
+                                    <div class="uk-card-media-left uk-cover-container" align="center">
+                                       <img src="images/garda/spalla_<?= $base ?>.jpg" alt="Conttattaci">
+
                                     </div>
-                                    <div id="modal-center3" uk-modal="center: true">
+                                   <!-- <div id="modal-center3" uk-modal="center: true">
                                         <div class="uk-modal-dialog">
                                             <button class="uk-modal-close-outside" type="button" uk-close></button>
                                             <img src="images/mangiare/colazione/c4.jpg" alt="mezza pensione">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
 
                                 <div class="uk-width-2-3@s">
@@ -179,22 +182,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane uk-animation-fade" id="mezzapensione">
+                        <div role="tabpanel" class="tab-pane uk-animation-fade" id="i2">
 
                             <div class="uk-card uk-card-default uk-grid-collapse uk-margin" uk-grid>
                                 <div class="uk-width-1-3@s">
-                                    <div class="uk-card-media-left uk-cover-container">
+                                    <div class="uk-card-media-left uk-cover-container" align="center">
 
-                                        <a href="#modal-center3" uk-toggle> <img src="images/mangiare/colazione/c3.jpg"
-                                                                                 alt="mezza pensione">
-                                        </a>
+                                       <img src="images/garda/spalla_<?= $base ?>.jpg" alt="Depiant">
+
                                     </div>
-                                    <div id="modal-center3" uk-modal="center: true">
+                                  <!--  <div id="modal-center3" uk-modal="center: true">
                                         <div class="uk-modal-dialog">
                                             <button class="uk-modal-close-outside" type="button" uk-close></button>
                                             <img src="images/mangiare/colazione/c4.jpg" alt="mezza pensione">
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">
@@ -202,7 +204,7 @@
                                         </h3>
                                         <p>
                                         <ul>
-                                            <li><a href="pdf/brochure.pdf" class="uk-link-muted" target="_blank" style="text-decoration: none;"><i class="fa fa-file-pdf-o"></i> Hotel Panorama Ristorante</a>
+                                            <li><a href="pdf/brochure.pdf" class="uk-link-muted" target="_blank" style="text-decoration: none;">Hotel Panorama Ristorante</a>
                                             </li>
                                         </ul>
                                         </p>

@@ -71,7 +71,7 @@
 
     <div style="width: 100%; background-image: url(images/garda/sfondo_<?= $base ?>.jpg); background-color: #AB2A58" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
-            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.2);text-shadow: 0 0 20px cyan;">Piscina</h2>
+            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px cyan;">Piscina</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
             <span style="float: right;text-align:right;"><b>“Essere in vacanza è non avere niente da fare e avere tutto il giorno per farlo.”<br>(Robert Orben)</b></span>
@@ -121,11 +121,11 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <!-- <div class="section_content"> -->
-                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="colazione">
+                        <div role="tabpanel" class="tab-pane active uk-animation-fade" id="i1">
 
                             <div class="uk-card uk-card-default uk-grid-collapse uk-margin" uk-grid>
                                 <div class="uk-card-media-left uk-cover-container uk-width-1-3@s" align="center">
-                                    <img src="images/garda/spalla_<?= $base ?>.jpg" alt="piscina">
+                                    <img src="images/garda/spalla_<?= $base ?>.jpg" alt="servizi">
                                 </div>
                                <!-- <div id="modal-center2" uk-modal="center: true" >
                                     <div class="uk-modal-dialog">

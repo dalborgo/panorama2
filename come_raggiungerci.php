@@ -54,7 +54,11 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     -->
-
+    <style>
+        .breadcrumb_main.nice_title > h2::after {
+            height: 30%;
+        }
+    </style>
 </head>
 <body id="gallery_page" style="font-family: 'Helvetica Neue','Arial'">
 
