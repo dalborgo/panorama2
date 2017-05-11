@@ -71,7 +71,7 @@
 
     <div style="width: 100%; background-image: url(images/garda/sfondo_<?= $base ?>.jpg); background-color: #AB2A58" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
-            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px cyan;">Piscina</h2>
+            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px #2038A4">Spettacoli ed Escursioni</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
             <span style="float: right;text-align:right;"><b>“Essere in vacanza è non avere niente da fare e avere tutto il giorno per farlo.”<br>(Robert Orben)</b></span>
@@ -84,29 +84,6 @@
     </div>
 </section>
 
-
-<!--<div class="room_detail_main">
-    <div class="container" >
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="section_title content-left margin-bottom-5"
-                     style="padding:20px">
-
-                    <div class="section_title nice_title content-center" style="height: 70%;" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
-                        <h3 class=""><div class="titoloBasso2">Servizi</div><span class="titoloBasso">Relax</span></h3>
-                    </div>
-
-                </div>
-                <div class="room_facilities_des padding-top-40 padding-bottom-20 ">
-                    <p>
-
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>-->
 
 
 <div class="other_room_area margin-bottom-55  padding-top-50">
@@ -135,11 +112,13 @@
                                 </div>-->
                                 <div class="uk-width-2-3@s">
                                     <div class="uk-card-body">
-                                        <h3 class="uk-card-title titoloBasso3 uk-heading-line"><span>Piscina</span></h3>
+                                        <h3 class="uk-card-title titoloBasso3 uk-heading-line"><span>Spettacoli ed Escursioni</span></h3>
                                         <p class="text-justify">
-                                            Per chi ha voglia di rigenerarsi con un bel bagno o rilassarsi con un idromassaggio, l’Hotel Panorama Ristorante dispone di una piscina con vista lago e acqua trattata con iodio, grazie al quale diminuisce l’irritazione cutanea e oculare e fornisce un livello di disinfezione più stabile.<br><br>
-                                            A bordo piscina potrete usufruire per il Vostro relax e la Vostra abbronzatura di sdraio e comodi lettini.<br><br>
-                                            Al Vostro arrivo troverete in stanza i teli per l’utilizzo della piscina.
+                                            Per chi il ha desiderio di visitare le meravigliose città d’arte vicine al Lago di Garda, l’incantevole Verona la città di Romeo e Giulietta e dell’Arena, la caratteristica Mantova con il sui Palazzi pieni di storia, la romantica Venezia con le tradizionali gondole e le sue calle, la frenetica Milano con il Duomo e il quadrilatero della moda.
+                                            <br><br>
+                                            Per chi vuole passare una giornata all’insegna del divertimento nei numerosi parchi a tema; per chi vuole passare una giornata remise en form nelle calde acque termali.
+                                            <br><br>
+                                            Per chi vuole fare un’escursione all’Isola del Garda o per chi vuole andare all’opera in Arena, … L’Hotel Panorama Ristorante sarà lieto di prenotare per Voi visite guidate e biglietti d’ingresso.
                                         </p>
                                     </div>
                                 </div>
@@ -150,42 +129,17 @@
                 </div>
             </div>
         </div>
-        <div class="row margin-top-115 margin-bottom-80">
-            <div class="col-lg-12 col-md-12">
-                <div class="deluxe_room_detail">
-                    <div class="section_title content-left margin-bottom-5">
 
-                        <h3 class="uk-heading-bullet uk-heading-line"><span class="titGal">Gallery</span>
-                        </h3>
-                    </div>
-                    <div class="section_content margin-top-10">
-                        <p>
-                        </p>
-                        <div class="showcase">
-                            <div class="section_description">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12">
-                                        <?= getSlider('piscina','servizi') ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
         <hr class="">
         <ul class="tabPers uk-flex-center uktab" style="border:none;padding: 10px">
             <li><a href="#" style="cursor: default;color: #E14C97">Servizi:</a></li>
-            <li><a href="piscina.php" ><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">Piscina</span></a></li>
+            <li><a href="piscina.php" >Piscina</span></a></li>
             <li><a href="biciclette.php">Bicicletta</a></li>
             <li><a href="nordic_walking.php">Nordic Walking</a></li>
             <li><a href="voucher.php">Voucher Regalo</a></li>
-            <li><a href="spettacoli.php">Spettacoli/Escursioni</a></li>
+            <li><a href="spettacoli.php"><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">Spettacoli/Escursioni</a></li>
             <li><a href="taxi.php">Taxi</a></li>
-            <li><a href="ptes.php">Pets</a></li>
+            <li><a href="pets.php">Pets</a></li>
         </ul>
 
 

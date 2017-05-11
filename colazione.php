@@ -201,13 +201,12 @@
             </div>
         </div>
         <hr class="">
-        <ul uk-tab class="tabPers uk-flex-center" style="border:none;padding: 20px">
+        <ul class="tabPers uk-flex-center uktab" style="border:none;padding: 20px">
             <li><a href="#" style="cursor: default;color: #E14C97">Mangiare:</a></li>
-            <li><a href="village.php"><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">Colazione</span></a>
-            </li>
-            <li><a href="lake.php">Mezza pensione</a></li>
-            <li><a href="solarium.php">La Terrazza del Panorama</a></li>
-            <li><a href="garden">Eventi</a></li>
+            <li><a href="colazione.php"><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">Colazione</span></a></li>
+            <li><a href="mezzapensione.php">Mezza pensione</a></li>
+            <li><a href="terrazza.php">La Terrazza del Panorama</a></li>
+            <li><a href="eventi.php">Eventi</a></li>
         </ul>
         <hr class="">
     </div>

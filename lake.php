@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Camera Singola | Hotel Demo Garda</title>
+    <title>Dormire | Hotel Panorama Ristorante</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="img/favicon.ico" sizes="16x16">
@@ -27,7 +27,7 @@
     <!--    <link rel="stylesheet" href="https://getuikit.com/assets/uikit/dist/css/uikit.css?nc=2206" />-->
     <!-- animate -->
     <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/datepicker.css" />
+    <!--    <link rel="stylesheet" href="css/datepicker.css" />-->
     <!-- Owl carousel 2 css -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- rev slider -->
@@ -54,13 +54,21 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     -->
-
+    <link href="js/ks/ks_booking.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" src="js/ks/ks_booking_calendar.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        var cal_1 = new CalendarPopup("ks_booking_cal_1_div", "it"); // Secondo parametro => lingua ("it" per l'italiano, "en" per l'inglese)
+        var cal_2 = new CalendarPopup("ks_booking_cal_2_div", "it"); // Secondo parametro => lingua ("it" per l'italiano, "en" per l'inglese)
+    </script>
+    <script language="javascript" type="text/javascript">document.write(getCalendarStyles());</script>
+    <script language="javascript" type="text/javascript" src="js/ks/ks_booking_func.js"></script>
 </head>
-<body id="room_detail_page" style="font-family: 'Helvetica Neue'">
+<body id="room_detail_page" style="font-family: 'Helvetica Neue','Arial'">
 
 <?php include_once "testa.php" ?>
 <?php include_once "facilities.php" ?>
 <?php include_once 'prenota.php' ?>
+<?php include_once 'slider.php' ?>
 
 <!-- start header -->
 <!-- end header -->
@@ -71,14 +79,14 @@
 
 
 
-    <div style="width: 100%; background-image: url(images/garda/sfondo_dormire.jpg); background-color: #AB2A58" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
+    <div style="width: 100%; background-image: url(images/garda/sfondo_<?= $base ?>.jpg); background-color: #E14C97" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
-            <h2 class="titAlto">Stanza Village</h2>
+            <h2 class="titAlto" style="line-height: 72px">Stanza Lake</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
-            <span style="float: right"><b>“Il sonno è per tutti gli uomini ciò che la carica è per l’orologio.”</b></span>
-            <br>
-            <span style="float: right"><b>(Arthur Schopenhauer)</b></span>
+            <span style="float: right;text-align:right"><b>“Il sonno è per tutti gli uomini ciò che la carica è per l’orologio.”<br>(Arthur Schopenhauer)</b></span>
+            <!--<br>
+            <span style="float: center"><b></b></span>-->
         </div>
         <!--   <div class="uk-overlay uk-light uk-position-bottom">
                <div><b>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></div>
@@ -97,7 +105,7 @@
                      style="padding:20px">
                     <!--                    <h4 class="uk-card-title"></h4>-->
                     <div class="section_title nice_title content-center" style="height: 70%;" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
-                        <h3 class=""><span style="color: #A82B57">Enjoy the Silence</span></h3>
+                        <h3 class=""><div class="titoloBasso2">Dormire</div><span class="titoloBasso">Enjoy the Silence</span></h3>
                     </div>
 
                 </div>
@@ -114,108 +122,79 @@
                 <div class="deluxe_room_detail">
                     <div class="section_title content-left margin-bottom-5">
 
-                        <h3 class="uk-heading-bullet uk-heading-line"><span class="titoloBasso">Stanza Village</span>
+                        <h3 class="uk-heading-bullet uk-heading-line"><span class="titoloBasso3">Stanza Lake</span>
                         </h3>
                     </div>
                     <div class="section_content margin-top-10">
                         <p>
-                            Con vista sul paese di Albisano.
+                            Con con balcone vista lago.
                         </p>
-                        <div class="showcase margin-top-35">
+                        <div class="showcase">
                             <div class="section_description">
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
-                                        <div class="clearfix" style="">
-                                            <ul class="gallery list-unstyled cS-hidden image-gallery2">
-                                                <!-- <ul id="vertical" class="gallery list-unstyled"> -->
-                                                <li data-thumb="img/lightslider-img/cS-52.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-52.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-51.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-51.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-50.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-50.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-49.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-49.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-48.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-48.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-47.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-47.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-46.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-46.jpg" />
-                                                </li>
-                                                <li data-thumb="img/lightslider-img/cS-45.jpg">
-                                                    <img alt="slider" src="img/lightslider-img/cS-45.jpg" />
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <?= getSlider('lake') ?>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="facilities_name clearfix margin-bottom-30 margin-top-65">
+                                    <div class="facil margin-top-65">
                                         <div class="col-lg-12 col-md-12">
                                             <div class="section_title margin-bottom-35 padding-bottom-25 border-bottom-whitesmoke">
-                                                <h5>Servizi "Village"</h5>
+                                                <h5 class="uk-heading-bullet uk-heading-line">Servizi Stanza "Lake"</h5>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-left">
-                                            <ul class="single_facilities_name clearul">
-                                                <?= get_fac('Pavimento in ceramica','pav') ?>
-                                                <?= get_fac('Doccia','doccia','Bagno completo con doccia') ?>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
+                                                <?= get_fac('Pavimento in ceramica','floor') ?>
+                                                <?= get_fac('Doccia','doccia2','Bagno completo con doccia') ?>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <ul class="single_facilities_name clearul">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
 
                                                 <?= get_fac('TV sat','tv2','TV sat schermo piatto') ?>
                                                 <?= get_fac('Nécessaire','necess','Nécessaire personalizzato con beauty kit all’olio d’oliva (all’arrivo)') ?>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <ul class="single_facilities_name clearul">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
                                                 <?= get_fac('Wi-fi','wifi') ?>
                                                 <?= get_fac('Asciugacapelli','asciuga') ?>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <ul class="single_facilities_name clearul">
-                                                <?= get_fac('Aria condizionata','freddo') ?>
-                                                <?= get_fac('Riscaldamento','risc2') ?>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
+                                                <?= get_fac('Aria condizionata','risc1') ?>
+                                                <?= get_fac('Riscaldamento','risc') ?>
                                             </ul>
                                         </div>
-                                    </div>
-                                    <div class="facilities_name clearfix margin-bottom-30">
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-left">
-                                            <ul class="single_facilities_name clearul">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
                                                 <?= get_fac('Telefono','telefono','Telefono con chiamata diretta') ?>
-                                                <?= get_fac('Frigorifero','frigo2', 'Frigorifero con acqua minerale (all’arrivo)') ?>
+                                                <?= get_fac('Frigorifero','fridge', 'Frigorifero con acqua minerale (all’arrivo)') ?>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <ul class="single_facilities_name clearul">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
                                                 <?= get_fac('Cassetta di sicurezza','sicurezza') ?>
-
+                                                <?= get_fac('Tavolino e sedie da esterno','tavolino') ?>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <ul class="single_facilities_name clearul">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
                                                 <?= get_fac('Telo piscina','telo','Telo piscina (all’arrivo)') ?>
 
                                             </ul>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <ul class="single_facilities_name clearul">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                            <ul class="">
                                                 <?= get_fac('Set da scrittura','scrittura') ?>
                                                 <!--                                                --><?//= get_fac('Cassetta di sicurezza','sicurezza') ?>
                                                 <!--                                                --><?//= get_fac('Riscaldamento','risc2') ?>
                                             </ul>
                                         </div>
                                     </div>
+
                                 </div>
 
 
@@ -229,19 +208,20 @@
 
             <div class="col-lg-3 col-md-3">
                 <!-- start hotel booking -->
-                <?= prenota('“VILLAGE”') ?>
+                <?= prenota('Lake') ?>
                 <!-- end hotel booking -->
             </div>
+            <hr class=" margin-top-80">
+            <ul class="tabPers uk-flex-center uktab" style="border:none;padding: 10px">
+                <li><a href="#" style="cursor: default;color: #E14C97">Stanze:</a></li>
+                <li><a href="village.php" >“Village”</a></li>
+                <li><a href="lake.php"><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">“Lake”</span></a></li>
+                <li><a href="solarium.php">“Solarium Superior”</a></li>
+                <li><a href="garden.php">“Garden Superior”</a></li>
+            </ul>
+            <hr class="">
         </div>
-        <hr class="uk-divider-icon">
-        <ul uk-tab class="tabPers uk-flex-center" style="border:none;">
-            <li><a href="#" style="cursor: default;color: #E14C97">Altre Stanze:</a></li>
-            <li><a href="village.php" ><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">“Village”</span></a></li>
-            <li><a href="lake.php" >“Lake”</a></li>
-            <li><a href="solarium.php" >“Solarium Superior”</a></li>
-            <li><a href="garden" >“Garden Superior”</a></li>
-        </ul>
-        <hr class="uk-divider-icon">
+
     </div>
 </div>
 <!-- start contact us area -->
@@ -260,7 +240,7 @@
 <script src="js/uikit-lightbox.js"></script>
 <!-- easing -->
 <script src="js/jquery.easing.1.3.min.js"></script>
-<script src="js/datepicker.js"></script>
+<!--<script src="js/datepicker.js"></script>-->
 <!-- scroll up -->
 <script src="js/jquery.scrollUp.min.js"></script>
 <!-- owlcarousel -->
@@ -279,10 +259,6 @@
 <script type="text/javascript">new WOW().init();</script>
 <![endif]-->
 
-<!--Opacity & Other IE fix for older browser-->
-<!--[if lte IE 8]>
-<script type="text/javascript" src="js/ie-opacity-polyfill.js"></script>
-<![endif]-->
 
 
 

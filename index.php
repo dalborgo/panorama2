@@ -102,7 +102,7 @@
         <li><img src="images/garda/1h.jpg" width="800" height="400" alt="">
             <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center bordoSfumato ">
                 <div>
-                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo maestoso spettacolo della natura,<br> questo delizioso quadro che è il Lago di Garda.”
+                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo <span style="white-space: nowrap ">maestoso spettacolo della natura,</span><br> questo delizioso quadro che è il Lago di Garda.”
                     </p>
                     <p class="autore uk-position-medium uk-position-center">(Johann Wolfgang von Goethe - 12 settembre 1786)</p>
                 </div>
@@ -111,7 +111,7 @@
         <li><img src="images/garda/2h.jpg" width="800" height="400" alt="">
             <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center bordoSfumato">
                 <div>
-                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo maestoso spettacolo della natura,<br> questo delizioso quadro che è il Lago di Garda.”
+                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo <span style="white-space: nowrap ">maestoso spettacolo della natura,</span><br> questo delizioso quadro che è il Lago di Garda.”
                     </p>
                     <p class="autore uk-position-medium uk-position-center">(Johann Wolfgang von Goethe - 12 settembre 1786)</p>
                 </div>
@@ -120,7 +120,7 @@
         <li><img src="images/garda/3h.jpg" width="800" height="400" alt="">
             <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center bordoSfumato">
                 <div>
-                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo maestoso spettacolo della natura,<br> questo delizioso quadro che è il Lago di Garda.”
+                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo <span style="white-space: nowrap ">maestoso spettacolo della natura,</span><br> questo delizioso quadro che è il Lago di Garda.”
                     </p>
                     <p class="autore uk-position-medium uk-position-center">(Johann Wolfgang von Goethe - 12 settembre 1786)</p>
                 </div>
@@ -129,7 +129,7 @@
         <li><img src="images/garda/4h.jpg" width="800" height="400" alt="">
             <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center bordoSfumato">
                 <div>
-                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo maestoso spettacolo della natura,<br> questo delizioso quadro che è il Lago di Garda.”
+                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo <span style="white-space: nowrap ">maestoso spettacolo della natura,</span><br> questo delizioso quadro che è il Lago di Garda.”
                     </p>
                     <p class="autore uk-position-medium uk-position-center">(Johann Wolfgang von Goethe - 12 settembre 1786)</p>
                 </div>
@@ -138,7 +138,7 @@
         <li><img src="images/garda/5h.jpg" width="800" height="400" alt="">
             <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center bordoSfumato">
                 <div>
-                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo maestoso spettacolo della natura,<br> questo delizioso quadro che è il Lago di Garda.”
+                    <p class="citazione uk-position-medium uk-position-center padding-top-5">“…a pochi passi da me c’era questo <span style="white-space: nowrap ">maestoso spettacolo della natura,</span><br> questo delizioso quadro che è il Lago di Garda.”
                     </p>
                     <p class="autore uk-position-medium uk-position-center">(Johann Wolfgang von Goethe - 12 settembre 1786)</p>
                 </div>

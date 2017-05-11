@@ -27,7 +27,7 @@
     <!--    <link rel="stylesheet" href="https://getuikit.com/assets/uikit/dist/css/uikit.css?nc=2206" />-->
     <!-- animate -->
     <link rel="stylesheet" href="css/animate.css" />
-<!--    <link rel="stylesheet" href="css/datepicker.css" />-->
+    <!--    <link rel="stylesheet" href="css/datepicker.css" />-->
     <!-- Owl carousel 2 css -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- rev slider -->
@@ -81,7 +81,7 @@
 
     <div style="width: 100%; background-image: url(images/garda/sfondo_<?= $base ?>.jpg); background-color: #E14C97" class="uk-background-cover uk-height-large uk-background-primary uk-inline">
         <div class="breadcrumb_main nice_title uk-overlay uk-light uk-position-center">
-            <h2 class="titAlto" style="line-height: 72px">Stanza Village</h2>
+            <h2 class="titAlto" style="line-height: 72px;background-color: rgba(0, 0, 0, 0.0);text-shadow: 0 0 20px #223E60;">Solarium Superior</h2>
         </div>
         <div class="uk-overlay bordoSfumato uk-light uk-position-top-right">
             <span style="float: right;text-align:right"><b>“Il sonno è per tutti gli uomini ciò che la carica è per l’orologio.”<br>(Arthur Schopenhauer)</b></span>
@@ -122,30 +122,30 @@
                 <div class="deluxe_room_detail">
                     <div class="section_title content-left margin-bottom-5">
 
-                        <h3 class="uk-heading-bullet uk-heading-line"><span class="titoloBasso3">Stanza Village</span>
+                        <h3 class="uk-heading-bullet uk-heading-line"><span class="titoloBasso3">Stanza Solarium Superior</span>
                         </h3>
                     </div>
                     <div class="section_content margin-top-10">
                         <p>
-                            Con vista sul paese di Albisano.
+                            Con roof-garden e grande terrazza vista lago.
                         </p>
                         <div class="showcase">
                             <div class="section_description">
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12">
-                                       <?= getSlider('village') ?>
+                                        <?= getSlider('solarium') ?>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="facil margin-top-65">
                                         <div class="col-lg-12 col-md-12">
                                             <div class="section_title margin-bottom-35 padding-bottom-25 border-bottom-whitesmoke">
-                                                <h5 class="uk-heading-bullet uk-heading-line">Servizi Stanza "Village"</h5>
+                                                <h5 class="uk-heading-bullet uk-heading-line">Servizi Stanza "Solarium Superior"</h5>
                                             </div>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="">
-                                                <?= get_fac('Pavimento in ceramica','floor') ?>
+                                                <?= get_fac('Pavimento in legno','floor') ?>
                                                 <?= get_fac('Doccia','doccia2','Bagno completo con doccia') ?>
                                             </ul>
                                         </div>
@@ -172,27 +172,33 @@
                                             <ul class="">
                                                 <?= get_fac('Telefono','telefono','Telefono con chiamata diretta') ?>
                                                 <?= get_fac('Frigorifero','fridge', 'Frigorifero con acqua minerale (all’arrivo)') ?>
+                                                <?= get_fac('Ombrellone','ombre') ?>
+
                                             </ul>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="">
                                                 <?= get_fac('Cassetta di sicurezza','sicurezza') ?>
-
+                                                <?= get_fac('Tavolo e sedie','tavolino', 'Tavolo e sedie da esterno') ?>
+                                                <?= get_fac('Plaid per esterno','plaid') ?>
                                             </ul>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="">
                                                 <?= get_fac('Telo piscina','telo','Telo piscina (all’arrivo)') ?>
-
+                                                <?= get_fac('Specchietto','236', 'Specchieto ingranditore') ?>
+                                                <?= get_fac('Bollitore','bollitore3', 'Bollitore con kit di benvenuto') ?>
                                             </ul>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                             <ul class="">
                                                 <?= get_fac('Set da scrittura','scrittura') ?>
+                                                <?= get_fac('Lettino prendisole','sdraio') ?>
                                                 <!--                                                --><?//= get_fac('Cassetta di sicurezza','sicurezza') ?>
                                                 <!--                                                --><?//= get_fac('Riscaldamento','risc2') ?>
                                             </ul>
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -208,15 +214,15 @@
 
             <div class="col-lg-3 col-md-3">
                 <!-- start hotel booking -->
-                <?= prenota('Village') ?>
+                <?= prenota('Solarium Superior') ?>
                 <!-- end hotel booking -->
             </div>
             <hr class=" margin-top-80">
             <ul class="tabPers uk-flex-center uktab" style="border:none;padding: 10px">
                 <li><a href="#" style="cursor: default;color: #E14C97">Stanze:</a></li>
-                <li><a href="village.php"><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">“Village”</span></a></li>
+                <li><a href="village.php" >“Village”</a></li>
                 <li><a href="lake.php">“Lake”</a></li>
-                <li><a href="solarium.php">“Solarium Superior”</a></li>
+                <li><a href="solarium.php"><span style="color: #333; border-bottom: 1px solid #A82B57;cursor: default;">“Solarium Superior”</span></a></li>
                 <li><a href="garden.php">“Garden Superior”</a></li>
             </ul>
             <hr class="">

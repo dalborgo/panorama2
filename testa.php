@@ -108,9 +108,9 @@ $base=explode('.',$base)[0];
                                 </a>
                                 <ul id="menu2" class="dropdown-menu" role="menu">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="colazione.php">Colazione</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="colazione.php">Mezza pensione</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="doppia.html">La Terrazza del Panorama</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="mini-suite.html">Eventi</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="mezzapensione.php">Mezza pensione</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="terrazza.php">La Terrazza del Panorama</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="eventi.php">Eventi</a></li>
                                 </ul>
                             </li>
                             <li role="presentation" class="dropdown">
@@ -119,12 +119,12 @@ $base=explode('.',$base)[0];
                                 </a>
                                 <ul id="menu2" class="dropdown-menu" role="menu">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="piscina.php">Piscina</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="piscina.php">Biciclette</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="doppia.html">Nordic walking</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="mini-suite.html">Voucher regalo</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="mini-suite.html">Spettacoli ed escursioni</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="mini-suite.html">Taxi transfet</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="mini-suite.html">Animali domestici</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="biciclette.php">Biciclette</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="nordic_walking.php">Nordic walking</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="voucher.php">Voucher regalo</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="spettacoli.php">Spettacoli ed escursioni</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="taxi.php">Taxi transfet</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="pets.php">Animali domestici</a></li>
                                 </ul>
                             </li>
                             <li><a href="offerte.php">Offerte</a></li>
